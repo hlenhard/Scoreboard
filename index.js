@@ -7,15 +7,15 @@ let score2 = 0
 function conditionsGuest() {
     if (score2 < 10)
         GuestScrEl.textContent = "0" + score2
-    if (score1 < score2) {
+    else if (score1 < score2) {
         GuestScrEl.style.color = "green"
         HomeScrEl.style.color = "red"
     }
-    if (score1 > score2) {
+    else if (score1 > score2) {
         HomeScrEl.style.color = "green"
         GuestScrEl.style.color = "red"
     }
-    if (score1 == score2) {
+     else if (score1 == score2) {
         HomeScrEl.style.color = "red"
         GuestScrEl.style.color = "red"
     }
@@ -24,15 +24,15 @@ function conditionsGuest() {
 function conditionsHome() {
     if (score1 < 10)
         HomeScrEl.textContent = "0" + score1
-    if (score1 < score2) {
+    else if (score1 < score2) {
         GuestScrEl.style.color = "green"
         HomeScrEl.style.color = "red"
     }
-    if (score1 > score2) {
+    else if (score1 > score2) {
         HomeScrEl.style.color = "green"
         GuestScrEl.style.color = "red"
     }
-    if (score1 === score2) {
+    else if (score1 === score2) {
         HomeScrEl.style.color = "red"
         GuestScrEl.style.color = "red"
     }
