@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="score-ctn">
+
+        <h3>HOME</h3>
+        <div class="score" id="scoreHW"><span id="scoreH">00</span></div>
+        <div class="score-btnH">
+          <button class="btn" id="btnH1" onclick="incrementH1()">+1</button>
+          <button class="btn" id="btnH2" onclick="incrementH2()">+2</button>
+          <button class="btn" id="btnH3" onclick="incrementH3()">+3</button>
+        </div>
+      </div>
+
+      <div class="score-ctn">
+
+        <h3>GUEST</h3>
+        <div class="score" id="scoreGW"><span id="scoreG">00</span></div>
+        <div class="score-btnG">
+          <button class="btn" id="btnG1" onclick="incrementG1()">+1</button>
+          <button class="btn" id="btnG2" onclick="incrementG2()">+2</button>
+          <button class="btn" id="btnG3" onclick="incrementG3()">+3</button>
+        </div>
+    </div>
+ 
+    </div>
+    <div class="nGame">
+      <button id="nGame-btn" onclick="Reset()">New Game</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
