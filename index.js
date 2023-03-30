@@ -15,7 +15,7 @@ function conditionsGuest() {
         HomeScrEl.style.color = "green"
         GuestScrEl.style.color = "red"
     }
-    if (score1 === score2) {
+    else {
         HomeScrEl.style.color = "red"
         GuestScrEl.style.color = "red"
     }
@@ -32,7 +32,7 @@ function conditionsHome() {
         HomeScrEl.style.color = "green"
         GuestScrEl.style.color = "red"
     }
-    if (score1 === score2) {
+    else {
         HomeScrEl.style.color = "red"
         GuestScrEl.style.color = "red"
     }
