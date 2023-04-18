@@ -69,6 +69,10 @@ h3 {
   text-align: center;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn:focus {
   outline: none;
 }
