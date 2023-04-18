@@ -106,7 +106,10 @@ h3 {
   font-size: 16px;
 }
 
-#nGame-btn:focus {
+#nGame-btn:hover {
   cursor: pointer;
+}
+
+#nGame-btn:focus {
   outline: none;
 }
