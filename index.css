@@ -107,5 +107,6 @@ h3 {
 }
 
 #nGame-btn:focus {
+  cursor: pointer;
   outline: none;
 }
